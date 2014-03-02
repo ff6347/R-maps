@@ -1,7 +1,7 @@
 # maps.R
 # ?plot
-# install.packages("rworldmap")
-# install.packages("rworldxtra")
+install.packages("rworldmap")
+install.packages("rworldxtra")
 
 # ?rworldmap
 # vignette('rworldmap')
