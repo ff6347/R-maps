@@ -32,10 +32,10 @@ routes[1:10,]
 # plot(routes$lat, routes$lon, type="n")
 # points(routes$lat, routes$lon, pch=20, cex=0.3)
 # lines(routes$lat, routes$lon)
-png(filename="output.png",width=1000,height=500)
+# png(filename="output.png",width=1000,height=500)
 plot(routes$lon,routes$lat, main="openpaths.cc", sub="",xlab="X-axis Longitude", ylab="Y-axix Latitide",)
 # text(routes$lon, routes$lat, labs=routes$device, cx = 0.5, dcol = "black",)
-dev.off()
+# dev.off()
 # Albers projection
 locProj <- mapproject(routes$lat, routes$lon, "mercator")
 routes$latproj <- locProj$x
