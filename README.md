@@ -10,11 +10,11 @@ fiddling with R and maps
 
 ##How 2 Setup R on MACOSX 10.9.2 
 
-This is a short documentation what I did to setup a r envoirment I like. Mostly for me not to forget what I did. The `$` at the begining of the commandos is an indicator for the command prompt of the terminal or iterm. Not a real command.
+This is a short documentation what I did to setup a [R](http://cran.r-project.org) environment I like. Mostly for me not to forget what I did. The `$` at the beginning of the commandos is an indicator for the command prompt of the terminal or iTerm. Not a real command.
 
 ###install homebrew  
 
-follow [this guide](http://www.computersnyou.com/2025/2013/06/install-command-line-tools-in-osx-10-9-mavericks-how-to/) to install the XCode commandline tools. Then got to [brew.sh](http://brew.sh) and follow the installation instructions.  
+follow [this guide](http://www.computersnyou.com/2025/2013/06/install-command-line-tools-in-osx-10-9-mavericks-how-to/) to install the XCode command line tools. Then go to to [brew.sh](http://brew.sh) and follow the installation instructions.  
 
 ###install XQaurtz with homebrew cask  
 
@@ -28,9 +28,9 @@ follow [this guide](http://www.computersnyou.com/2025/2013/06/install-command-li
 
 ###install r by download  
 
-[got here](http://mirrors.softliste.de/cran/) and follow the installation instructions
+[go to here](http://mirrors.softliste.de/cran/) and follow the installation instructions
 
-###install r via homebrew (alternativ can create errors. not fully tested)  
+###install r via homebrew (alternative. can create errors. not fully tested)  
 [found here](http://davidsimpson.me/2013/02/26/installing-r-on-os-x/)
 
     brew update
@@ -73,7 +73,7 @@ This is what you should see:
 
 
 
-###Setup R Envoirment  
+###Setup R Environment  
 
 Start the r REPL by writing:
 The getwd() and setwd() commands give the the location your r console is running.  
@@ -83,17 +83,17 @@ The getwd() and setwd() commands give the the location your r console is running
     [1] "/Users/YourHomeFolder/"
 
 
-create a Envoirment file in your home directory.
+create a Environment file in your home directory.
 
     $ echo "R_LIBS=/Users/$HOME/rLibrary" > $HOME/.Renviron
 
 ###install Sublime Text  
 
-got [here](http://www.sublimetext.com) and follow the instructions
+go to [here](http://www.sublimetext.com) and follow the instructions
 
 ###install Sublime Package Manager  
 
-got [here](https://sublime.wbond.net/installation) and follow the instructions
+go to [here](https://sublime.wbond.net/installation) and follow the instructions
 
 ###install SublimeREPL via Package Manager  
 
@@ -102,9 +102,9 @@ in the Sublime Text Command palette (shift + cmd + p) enter REPL
 ###install Sublime Enhanced-R via Package Manager  
 
 - in the Sublime Text Command palette (shift + cmd + p) enter Enhanced. 
-- open Sublime Text>Preferneces>Package Settings>Enhanced R>Settings Default
+- open Sublime Text>Preferences>Package Settings>Enhanced R>Settings Default
 - open Sublime Text>Preferneces>Package Settings>Enhanced R>Settings User
-- copy the whole content from Default to user and change the isx.app settings ti iterm  
+- copy the whole content from Default to user and change the osx.app settings to iterm  
 
 It should look like this:  
 
