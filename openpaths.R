@@ -26,7 +26,7 @@ maxlon = ceiling(lonrange[2])
 minlon
 maxlon
 
-
+map('world')
 map('world', fill=FALSE, col=1:10 , ylim=c(minlat,maxlat), xlim=c(minlon,maxlon), plot=TRUE,bg="black")
 lines(route$lon,route$lat, col="white")
 points(route$lon,route$lat, pch=19, col="grey",cex = 1)
